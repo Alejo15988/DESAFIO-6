@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primera app vite</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Vení al Gym!</h1>
+      <h2>Datos personales</h2>
+      <form action="#" method="post">
+          <input type="text" name="nombre" placeholder="Nombre*" required>
+          <input type="text" name="apellido" placeholder="Apellido*" required>
+          <input type="number" name="documento" placeholder="Documento*" required>
+          <select name="pais" required>
+              <option value="" disabled selected>Nacionalidad</option>
+              <option value="Argentina">Colombia</option>
+              <option value="Brasil">Argentina</option>
+              <option value="Chile">Chile</option>
+          </select>
+          <div class="optional-fields">
+            <textarea name="info" id="lbl-descripcion" class="tamaño-cajas" cols="30" rows="10" placeholder="Cuentanos un poco de vos..."></textarea>
+          </div>
+          <h2>Datos de contacto</h2>
+          <div class="optional-fields">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" name="telefono" placeholder="Teléfono">
+          </div>
+          <div class="optional-fields">
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" name="email" placeholder="Correo Electrónico">
+          </div>
+          <h2>Actividades</h2>
+          <p>Por favor, indicá cuáles Actividades te interesan</p>
+          <hr>
+          <a>Sede Palermo:</a>
+          
+          <div>
+            <label>
+              <input type="checkbox" id="basquet" name="auto-fav-1" value="basquet">
+              <label for="basquet">Básquet</label>
+              </label>
+    
+              <label>  
+              <input type="checkbox" id="box" name="auto-fav-2" value="box">
+              <label for="box">Box</label>
+              </label>
+    
+              <label>
+                <input type="checkbox" id="futbol" name="auto-fav-3" value="futbol">
+                <label for="box">Fútbol</label>
+              </label>
+    
+              <label>
+                <input type="checkbox" id="Tenis" name="auto-fav-4" value="tenis">
+                <label for="tenis">Tenis</label>
+              </label>
+            <hr>
+          </div>
+
+          <a>Sede Rosario:<a>
+          <br>
+          
+          <label>
+            <input type="checkbox" id="basquet" name="auto-fav-1" value="basquet">
+            <label for="basquet">Básquet</label>
+            </label>
+          
+            <label>
+              <input type="checkbox" id="futbol" name="auto-fav-2" value="futbol">
+              <label for="box">Fútbol</label>
+            </label>
+  
+            <label>
+              <input type="checkbox" id="rugby" name="auto-fav-3" value="rugby">
+              <label for="rugby">Rugby</label>
+            </label>
+  
+            <label>
+              <input type="checkbox" id="voley" name="auto-fav-3" value="voley">
+              <label for="voley">Voley</label>
+            </label>
+          <hr>
+          <input type="submit" value="Registrarse">
+          <p>
+          <input type="submit" value="Registrarse">
+
+      </form>
+  </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

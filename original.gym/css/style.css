@@ -1,0 +1,99 @@
+
+body{
+    background-color: #1F2023;
+}
+h1{
+    background-color: #1F2023;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    width: 500px;
+    border: 10px solid #4dac8e;
+    border-left: 10px solid #1f2023;
+    border-right: 10px solid #1f2023;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    background-color: #a6c1b9;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+    
+
+    
+}
+legend{
+    
+    
+    padding: 4px;
+    background-color: #4D6D63;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    
+
+    
+    
+} 
+.tamaño{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.tamaño-blank {
+    width: 400px;
+  }
+.lbl-nombre{
+    margin: 10px;
+}
+
+fieldset{
+    margin-bottom: 40px;
+    border-radius: 2%;
+}
+legend{
+    padding: 4px;
+    
+}
+input:focus {
+    background-color: #4d6d63;
+  }
+.puntos{
+    color: #A6C1B9;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -130px;
+    margin-bottom: -100px;
+  }
+  .tamaño-cajas {
+    width: 400px;
+}
+::placeholder {
+    text-align: right;
+}
+.condiciones-novedades {
+    width: 500px;
+    margin: auto;
+    padding-top: -40px;
+  }
+  .boton {
+   display: flex;
+   justify-content: center;
+  }
+  button {
+    background-color: #09593e;
+    border: 1px solid #46645a;
+    color: #a4b18e;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  .last-checkbox {
+    color: rgb(200, 140, 140);
+  }
+  .white{
+    color: #FFFFFF;
+  }
